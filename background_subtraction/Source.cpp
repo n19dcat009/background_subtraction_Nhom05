@@ -16,7 +16,7 @@ int main(int argc, char* argv[])
     VideoCapture cap;
     Mat videoFarme;
 
-    cap.open(0);
+    cap.open("bandicam 2022-09-29 00-26-48-172.mp4");
     namedWindow("VidepCapture", WINDOW_AUTOSIZE);
 
     /*VideoCapture cap(samples::findFile("vtest.avi"));*/
